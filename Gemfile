@@ -1,6 +1,6 @@
 source :rubygems
 
 `mkdir -p vendor/bundle`
-`echo "HELLO" > vendor/bundle/HELLO.txt`
+`pip install -E vendor/bundle/pyenv -r requirements.txt`
 
-gem 'sinatra'
+#gem 'ftp'
