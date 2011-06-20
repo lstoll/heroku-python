@@ -1,3 +1,6 @@
 source :rubygems
 
-gem 'ftp'
+`mkdir -p vendor/bundle`
+`echo "HELLO" > vendor/bundle/HELLO.txt`
+
+gem 'sinatra'

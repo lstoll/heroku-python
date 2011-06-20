@@ -1,10 +1,14 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    ftp (0.069)
+    rack (1.2.2)
+    sinatra (1.1.0)
+      rack (~> 1.1)
+      tilt (~> 1.1)
+    tilt (1.2.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  ftp
+  sinatra
