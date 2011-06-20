@@ -1,0 +1,10 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ftp (0.069)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ftp
