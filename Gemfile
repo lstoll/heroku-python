@@ -1,6 +1,5 @@
 source :rubygems
 
 `mkdir -p vendor/bundle`
-`pip install -E vendor/bundle/pyenv -r requirements.txt`
-
-#gem 'ftp'
+`rm -rf vendor/bundle/pyenv`
+`pip install -E vendor/bundle/pyenv -r requirements.txt > vendor/bundle/pip.log`
