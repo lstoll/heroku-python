@@ -1,1 +1,1 @@
-web: vendor/bundle/pyenv/bin/python ./app.py $PORT
+web: bin/python ./app.py $PORT
