@@ -1,3 +1,7 @@
 *.pyc
 /build/*
-/vendor/bundle/*
+# Python env stuff
+/bin/*
+/include/*
+/lib/*
+/tmp/*
